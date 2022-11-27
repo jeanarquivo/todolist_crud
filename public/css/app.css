@@ -1,0 +1,68 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+body{
+		font-family: arial;
+}
+.item{
+		border: 1px solid black;
+		background-color: #e6ffe6;
+		margin: 20px;
+		padding: 20px;
+		padding-top: 5px;
+		border-radius: 15px;
+}
+.btn_edit
+{
+    background-color:#85a3e0;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+      
+}
+.btn_delete
+{
+    background-color:#e94540;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;	
+      
+}
+a
+{
+		background-color:#85a3e0;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 7px;	
+        	
+}
+.grid
+	{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		
+	}
+
+    #todolist_table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #todolist_table td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #todolist_table tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #todolist_table tr:hover {background-color: #ddd;}
+      
+      #todolist_table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
